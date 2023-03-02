@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "@acme/eslint-config",
+  "version": "1.0.0",
+  "description": "Acme eslint configuration",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "native.js",
+    "web.js",
+    "node.js"
+  ],
+  "scripts": {
+    "lint": "eslint --ext js,ts,tsx ."
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint": "^8.34.0",
+    "eslint-config-universe": "^11.2.0",
+    "prettier": "^2.8.4",
+    "@tsconfig/recommended": "^1.0.2"
+  },
+  "eslintConfig": {
+    "extends": "."
+  }
+}
