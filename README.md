@@ -10,6 +10,7 @@
 git clone https://github.com/ts-monorepo/basic.git basic-monorepo
 cd basic-monorepo
 pnpm install
+pnpm start-prepare # install git hooks
 ```
 
 ```zsh
