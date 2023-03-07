@@ -2,7 +2,7 @@
   "private": true,
   "name": "@configs/ts-config",
   "version": "1.0.0",
-  "description": "Acme ts configuration",
+  "description": "ts configuration",
   "license": "MIT",
   "main": "index.js",
   "files": [
