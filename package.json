@@ -10,6 +10,7 @@
     "start-prepare": "chmod +x ./node_modules/.bin/husky && husky install && chmod +x ./node_modules/.bin/cross-env"
   },
   "devDependencies": {
+    "@configs/eslint-config": "*",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2",
     "turbo": "^1.8.3"
@@ -26,6 +27,14 @@
     "overrides": {
       "uuid": "^3.4.0"
     }
+  },
+  "eslintConfig": {
+    "extends": "@configs/eslint-config",
+    "ignorePatterns": [
+      "node_modules",
+      ".next",
+      "public"
+    ]
   },
   "prettier": {
     "printWidth": 100,
