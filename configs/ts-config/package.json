@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@acme/ts-config",
+  "name": "@configs/ts-config",
   "version": "1.0.0",
   "description": "Acme ts configuration",
   "license": "MIT",
@@ -9,6 +9,6 @@
     "tsconfig.json"
   ],
   "dependencies": {
-    "typescript": "^5.0.0-beta"
+    "typescript": "next"
   }
 }

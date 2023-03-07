@@ -11,13 +11,13 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@acme/test-config": "*",
-    "@acme/ts-config": "*",
-    "@acme/eslint-config": "*"
+    "@configs/test-config": "*",
+    "@configs/ts-config": "*",
+    "@configs/eslint-config": "*"
   },
   "eslintConfig": {
     "extends": [
-      "@acme/eslint-config/node"
+      "@configs/eslint-config/node"
     ],
     "ignorePatterns": [
       "node_modules"

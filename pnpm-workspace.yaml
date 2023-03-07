@@ -1,5 +1,6 @@
 packages:
-  - 'packages/*'
+  - 'configs/**'
+  - 'packages/**'
   - 'apps/**'
 
   # exclude dist projects

@@ -8,7 +8,8 @@
 
 ```zsh
 git clone https://github.com/ts-monorepo/basic.git basic-monorepo
-cd basic-monorepo && pnpm i
+cd basic-monorepo
+pnpm install
 ```
 
 ```zsh
@@ -29,11 +30,11 @@ apps:
 
 - `apps/hello`
 
-Common packages:
+Common config packages:
 
-- `packages/ts-config`
-- `packages/eslint-config`
-- `packages/test-config`
+- `config/ts-config`
+- `config/eslint-config`
+- `config/test-config`
 
 ### TODOs
 
