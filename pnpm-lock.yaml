@@ -65,9 +65,9 @@ importers:
 
   configs/ts-config:
     specifiers:
-      typescript: next
+      typescript: ^5.0.2
     dependencies:
-      typescript: 5.1.0-dev.20230307
+      typescript: 5.0.2
 
 packages:
 
@@ -2524,9 +2524,9 @@ packages:
       is-typed-array: 1.1.10
     dev: false
 
-  /typescript/5.1.0-dev.20230307:
-    resolution: {integrity: sha512-QoA4rJ5koT+JJk69FBwAF4vx446c5xPWlvgMrlz0E0SaGDpveCbK8DTpRmdxrZR4oVQ0VxMag1BGtZPtQtU+Jg==}
-    engines: {node: '>=4.2.0'}
+  /typescript/5.0.2:
+    resolution: {integrity: sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==}
+    engines: {node: '>=12.20'}
     hasBin: true
     dev: false
 
