@@ -35,7 +35,8 @@ Common config packages:
 
 - `config/ts-config`
 - `config/eslint-config`
-- `config/test-config`
+- `config/test-config` for pure ts testing, support decorators
+- `config/vitest-config` for react testing
 
 ### TODOs
 
