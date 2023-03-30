@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "basic-monorepo",
-  "packageManager": "pnpm@7.29.0",
+  "packageManager": "pnpm@8.1.0",
   "scripts": {
     "lint": "turbo lint",
     "test": "turbo test",
@@ -13,7 +13,7 @@
     "@configs/eslint-config": "*",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2",
-    "turbo": "^1.8.3"
+    "turbo": "^1.8.8"
   },
   "pnpm": {
     "peerDependencyRules": {
