@@ -2,6 +2,7 @@
 apps/*/credentials.json
 apps/*/build
 packages/*/build
+dist
 
 # Turborepo
 .turbo
@@ -65,3 +66,8 @@ build-*
 *.db
 *.db-shm
 *.db-wal
+
+coverage
+.rollup.cache
+playwright-report
+test-results
