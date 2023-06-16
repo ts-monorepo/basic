@@ -1,0 +1,13 @@
+{
+  "name": "py-hello",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "flask --app flaskr run --debug --port 6066",
+    "prod": "gunicorn -w 4 'flaskr:app'",
+    "check:types": "echo check types",
+    "build": "echo build",
+    "test": "coverage run -m pytest && coverage report"
+  },
+  "dependencies": {}
+}

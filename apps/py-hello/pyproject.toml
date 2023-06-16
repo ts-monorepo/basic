@@ -1,0 +1,17 @@
+[project]
+name = "hello"
+version = "1.0.0"
+dependencies = ["flask", "gunicorn", "pytest", "coverage", "langchain"]
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.coverage.run]
+branch = true
+source = ["flaskr"]
+
+# https://flask.palletsprojects.com/en/2.3.x/tutorial/install/#describe-the-project
+# [build-system]
+# requires = ["setuptools"]
+# build-backend = "setuptools.build_meta"

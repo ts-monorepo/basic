@@ -29,14 +29,15 @@ pnpm build
 
 apps:
 
-- `apps/hello`
+- `apps/hello` Simple TypeScript hello program
+- `apps/py-hello` Simple Python Flask hello program
 
 Common config packages:
 
 - `config/ts-config`
 - `config/eslint-config`
-- `config/test-config` for pure ts testing, support decorators
-- `config/vitest-config` for react testing
+- `config/test-config` for pure TS testing, support decorators
+- `config/vitest-config` for react.js testing
 
 ### TODOs
 

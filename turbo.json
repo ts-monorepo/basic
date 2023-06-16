@@ -14,12 +14,16 @@
       "inputs": ["**/*.{ts,tsx,js,jsx}"]
     },
     "build": {
-      "dependsOn": ["^build"],
+      "dependsOn": [],
       "outputs": [".next/**", "build/**", "dist**", "node_modules/.cache/metro/**"]
     },
     "dev": {
       "cache": false,
-      "dependsOn": ["^build"]
+      "dependsOn": []
+    },
+    "prod": {
+      "cache": false,
+      "dependsOn": []
     }
   }
 }
