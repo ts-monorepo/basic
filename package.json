@@ -4,17 +4,18 @@
   "packageManager": "pnpm@8.1.0",
   "scripts": {
     "lint": "turbo lint",
-    "check:types": "turbo check:types && echo ",
+    "check:types": "turbo check:types",
     "test": "turbo test",
     "build": "turbo build",
     "dev": "turbo dev",
+    "clean": "turbo clean && rm -rf node_modules",
     "start-prepare": "chmod +x ./node_modules/.bin/husky && husky install && chmod +x ./node_modules/.bin/cross-env"
   },
   "devDependencies": {
     "@configs/eslint-config": "*",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
-    "turbo": "^1.9.9"
+    "turbo": "1.9.9"
   },
   "pnpm": {
     "peerDependencyRules": {
@@ -50,8 +51,8 @@
       "eslint --fix"
     ],
     "*.{ts,tsx,mts}": [
-      "pnpm lint --",
-      "pnpm check:types"
+      "echo lint && pnpm lint --",
+      "echo check:types && pnpm check:types"
     ],
     "*.{md,css}": [
       "prettier --write"

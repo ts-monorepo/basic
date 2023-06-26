@@ -1,21 +1,19 @@
 {
   "$schema": "https://turborepo.org/schema.json",
   "pipeline": {
-    "lint": {
-      "cache": false,
-      "outputs": []
+    "lint": {},
+    "clean": {
+      "cache": false
     },
     "check:types": {
-      "cache": false,
-      "outputs": []
+      "cache": false
     },
     "test": {
-      "dependsOn": ["lint", "check:types", "build"],
       "inputs": ["**/*.{ts,tsx,js,jsx}"]
     },
     "build": {
-      "dependsOn": ["^build"],
-      "outputs": [".next/**", "build/**", "dist**", "node_modules/.cache/metro/**"]
+      "outputs": [".next/**", "build/**", "dist**", "node_modules/.cache/metro/**"],
+      "dependsOn": ["^build"]
     },
     "dev": {
       "cache": false,
