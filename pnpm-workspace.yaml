@@ -4,6 +4,6 @@ packages:
   - 'apps/**'
 
   # exclude dist projects
-  - '!**/dist**'
+  - '!**/dist*/**'
   # exclude .next projects
-  - '!**/.next**'
+  - '!**/.next/**'
