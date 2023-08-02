@@ -12,10 +12,10 @@
     "start-prepare": "chmod +x ./node_modules/.bin/husky && husky install && chmod +x ./node_modules/.bin/cross-env"
   },
   "devDependencies": {
-    "@configs/eslint-config": "*",
+    "@configs/eslint-config": "workspace:*",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.2",
-    "turbo": "1.10.7"
+    "lint-staged": "^13.2.3",
+    "turbo": "1.10.12"
   },
   "pnpm": {
     "peerDependencyRules": {

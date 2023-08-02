@@ -5,10 +5,10 @@
   "version": "1.0.0",
   "devDependencies": {
     "@testing-library/react": "^14.0.0",
-    "@vitejs/plugin-react": "^4.0.1",
-    "@vitest/ui": "^0.32.2",
+    "@vitejs/plugin-react": "^4.0.4",
+    "@vitest/ui": "^0.32.4",
     "jsdom": "^22.1.0",
-    "vitest": "^0.32.2"
+    "vitest": "^0.32.4"
   },
   "license": "MIT"
 }

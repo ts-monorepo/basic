@@ -12,9 +12,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@configs/test-config": "*",
-    "@configs/ts-config": "*",
-    "@configs/eslint-config": "*"
+    "@configs/test-config": "workspace:*",
+    "@configs/ts-config": "workspace:*",
+    "@configs/eslint-config": "workspace:*"
   },
   "eslintConfig": {
     "extends": [

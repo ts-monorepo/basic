@@ -2,12 +2,12 @@
 
 Usage:
 
-First, add `"@configs/test-config": "*"` to the `package.json` devDependencies:
+First, add `"@configs/test-config": "workspace:*"` to the `package.json` devDependencies:
 
 ```json
 {
   "devDependencies": {
-    "@configs/test-config": "*",
+    "@configs/test-config": "workspace:*",
     "test": "cross-env NODE_ENV=test TS_CONFIG_PATHS=true ts-mocha -p tsconfig.json ./**/*.test.ts --parallel --timeout 30000"
   }
 }

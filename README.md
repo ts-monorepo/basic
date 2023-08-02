@@ -25,6 +25,11 @@ pnpm test
 pnpm build
 ```
 
+```zsh
+# update all depencenies
+pnpm up --latest && pnpm up -r --workspace
+```
+
 ### Structure
 
 apps:
