@@ -4,7 +4,7 @@
   "packageManager": "pnpm@8.1.0",
   "scripts": {
     "lint": "turbo lint",
-    "check:types": "turbo check:types",
+    "checktype": "turbo checktype",
     "test": "turbo test",
     "build": "turbo build",
     "dev": "turbo dev",
@@ -52,7 +52,7 @@
     ],
     "*.{ts,tsx,mts}": [
       "echo lint && pnpm lint --",
-      "echo check:types && pnpm check:types"
+      "echo checktype && pnpm checktype"
     ],
     "*.{md,css}": [
       "prettier --write"
