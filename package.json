@@ -9,7 +9,7 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "clean": "turbo clean && rm -rf node_modules",
-    "ready": "pnpm husky install && pnpm --filter=server sync-sdk"
+    "ready": "pnpm husky install"
   },
   "devDependencies": {
     "@configs/eslint-config": "workspace:*",
