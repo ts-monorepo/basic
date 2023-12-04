@@ -4,10 +4,10 @@
   "description": "test config",
   "version": "1.0.0",
   "devDependencies": {
-    "@types/chai": "^4.3.5",
-    "@types/mocha": "^10.0.1",
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
     "@types/node": "^20.4.5",
-    "chai": "^4.3.7",
+    "chai": "^4.3.10",
     "cross-env": "^7.0.3",
     "mocha": "^10.2.0",
     "ts-mocha": "^10.0.0",

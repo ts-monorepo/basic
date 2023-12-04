@@ -9,8 +9,8 @@
   },
   "devDependencies": {
     "@configs/ts-config": "workspace:*",
-    "@jest/globals": "^29.6.2",
-    "jest": "^29.6.2",
+    "@jest/globals": "^29.7.0",
+    "jest": "^29.7.0",
     "ts-jest": "^29.1.1"
   }
 }

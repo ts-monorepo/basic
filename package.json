@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "basic-monorepo",
-  "packageManager": "pnpm@8.1.0",
+  "packageManager": "pnpm@8.11.0",
   "scripts": {
     "lint": "turbo lint",
     "checktype": "turbo checktype",
@@ -9,13 +9,13 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "clean": "turbo clean && rm -rf node_modules",
-    "start-prepare": "chmod +x ./node_modules/.bin/husky && husky install && chmod +x ./node_modules/.bin/cross-env"
+    "ready": "pnpm --filter=server sync-sdk"
   },
   "devDependencies": {
     "@configs/eslint-config": "workspace:*",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
-    "turbo": "1.10.12"
+    "turbo": "^1.10.16"
   },
   "pnpm": {
     "peerDependencyRules": {
